@@ -1,0 +1,28 @@
+{
+  "name": "angular-karma-demo",
+  "version": "1.0.0",
+  "description": "Demo application of Karma testing an Angular controller with a RESTful resource.",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "karma": "^0.13.3",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "mocha": "^2.2.5",
+    "phantomjs": "^1.9.17",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "karma start --single-run",
+    "tdd": "karma start"
+  },
+  "license": "MIT"
+}
